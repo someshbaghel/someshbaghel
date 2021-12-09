@@ -5,9 +5,9 @@ on:
       - master
   
   steps:
-    - name: sh
-      uses: wei/sh@master
+    - name: curl
+      uses: wei/curl@master
       with:
-        args: ip-172-16-213-85.ap-south-1.compute.internal/opt/deployment.sh
+        args: http://3.110.77.174/opt/deployment.cgi
          env:
         CI: true
