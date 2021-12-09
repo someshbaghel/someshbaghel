@@ -2,7 +2,7 @@ name: first_deployment
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
