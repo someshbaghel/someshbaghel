@@ -17,5 +17,5 @@ jobs:
     - name: curl
       uses: wei/curl@master
       with:
-        args: http://3.110.77.174/opt/deployment.cgi
+        args: http://http://3.110.128.233/opt/deployment.cgi
         CI: true
