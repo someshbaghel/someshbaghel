@@ -7,7 +7,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: linux
 
     strategy:
       matrix:
@@ -18,5 +18,4 @@ jobs:
       uses: wei/curl@master
       with:
         args: http://3.110.77.174/opt/deployment.cgi
-
         CI: true
