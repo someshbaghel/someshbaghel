@@ -1,0 +1,13 @@
+name: first_deployment
+on:
+  push:
+    branches:
+      - master
+  
+  steps:
+    - name: sh
+      uses: wei/sh@master
+      with:
+        args: ip-172-16-213-85.ap-south-1.compute.internal/opt/deployment.sh
+         env:
+        CI: true
