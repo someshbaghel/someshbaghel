@@ -4,7 +4,7 @@ on:
     branches:
       - master
   
-  steps:
+  status:
     - name: curl
       uses: wei/curl@master
       with:
