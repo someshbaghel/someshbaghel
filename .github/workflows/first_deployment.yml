@@ -3,10 +3,20 @@ on:
   push:
     branches:
       - master
-  
-  status:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        Apache: [2.4.51]
+
+    steps:
     - name: curl
       uses: wei/curl@master
       with:
         args: http://3.110.77.174/opt/deployment.cgi
+
         CI: true
