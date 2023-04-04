@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @someshbaghel
 - 👀 I’m interested in ...learning new technologies 
-- 🌱 I’m currently learning ... terraform 
+- 🌱 I’m currently handling DevOPs Team and learnign DevSecOps tools. 
 - 💞️ I’m looking to collaborate on ... Devops 
 - 📫 How to reach me ... baghelsdomesh22@gmail.com
 
